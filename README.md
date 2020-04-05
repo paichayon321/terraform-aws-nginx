@@ -29,3 +29,15 @@ export AWS_ACCESS_KEY_ID=<key>
 export AWS_SECRET_ACCESS_KEY=<secret>
   
 export AWS_DEFAULT_REGION=ap-southeast-1
+
+# Run Terraform
+./terraform init
+
+If init error --> remove .terraform folder and run again
+
+./terraform plan
+
+./terraform apply 
+
+#UnApply
+./terraform destroy
