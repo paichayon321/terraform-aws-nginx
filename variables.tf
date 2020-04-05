@@ -18,3 +18,8 @@ variable "ami" {
   # Centos7 AMI
   default = "ami-0b4dd9d65556cac22"
 }
+
+variable "subnet_id" {
+  description = "Default vpc subnet"
+  default = "subnet-e33cdb85"
+}
