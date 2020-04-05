@@ -1,10 +1,11 @@
-# terraform-aws-nginx
+# Terraform-aws-nginx
 Install terraform
+```
 wget https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip
-
 unzip terraform_0.12.24_linux_amd64.zip
-
+```
 # Create S3 bucket
+```
 name terraform-bucket-poc-3436
 
 {
@@ -22,9 +23,11 @@ name terraform-bucket-poc-3436
     }
   ]
 }
-
-# Export AWS Environment
 ```
+# Test Run
+```
+# Export AWS Environment
+
 export AWS_ACCESS_KEY_ID=<key>
 export AWS_SECRET_ACCESS_KEY=<secret>
 export AWS_DEFAULT_REGION=ap-southeast-1
