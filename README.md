@@ -24,10 +24,9 @@ name terraform-bucket-poc-3436
 }
 
 # Export AWS Environment
+```
 export AWS_ACCESS_KEY_ID=<key>
-  
 export AWS_SECRET_ACCESS_KEY=<secret>
-  
 export AWS_DEFAULT_REGION=ap-southeast-1
 
 # Run Terraform
@@ -43,3 +42,4 @@ If init error --> remove .terraform folder and run again
 
 #UnApply
 ./terraform destroy
+```
