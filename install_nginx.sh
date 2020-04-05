@@ -1,2 +1,2 @@
 #! /bin/bash
-sudo yum install nginx
+sudo yum install nginx -y
