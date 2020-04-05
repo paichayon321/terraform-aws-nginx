@@ -39,5 +39,7 @@ If init error --> remove .terraform folder and run again
 
 ./terraform apply 
 
+./terraform apply -auto-approve
+
 #UnApply
 ./terraform destroy
